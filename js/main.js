@@ -1,3 +1,33 @@
+const SCRIPT_URL = 'https://script.google.com/macros/s/TU_SCRIPT_ID_AQUI/exec';
+
+document.getElementById('form-contacto').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const datos = {
+    nombre: document.getElementById('nombre').value,
+    correo: document.getElementById('correo').value,
+    servicio: document.getElementById('servicio').value,
+    mensaje: document.getElementById('mensaje').value
+  };
+
+  fetch(SCRIPT_URL, {
+    method: 'POST',
+    mode: 'no-cors', // Evita restricciones CORS con Apps Script
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(datos)
+  })
+  .then(() => {
+    alert('¡Mensaje enviado con éxito!');
+    document.getElementById('form-contacto').reset();
+  })
+  .catch(error => {
+    console.error('Error al enviar:', error);
+    alert('Ocurrió un error al enviar la información.');
+  });
+});
+
 // Header scroll effect
     const header = document.getElementById('header');
     window.addEventListener('scroll', () => {
