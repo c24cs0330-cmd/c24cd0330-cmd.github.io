@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Cercanía">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C9A7"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <!-- Pin de ubicación -->
+  <path fill="url(#g1)" d="M64 16c-17.7 0-32 14.3-32 32 0 24 32 56 32 56s32-32 32-56c0-17.7-14.3-32-32-32zm0 44c-6.6 0-12-5.4-12-12s5.4-12 12-12 12 5.4 12 12-5.4 12-12 12z"/>
+  <!-- Personas debajo (comunidad) -->
+  <circle cx="40" cy="108" r="8" fill="#14b8a6" opacity="0.9"/>
+  <circle cx="64" cy="104" r="9" fill="#0f766e"/>
+  <circle cx="88" cy="108" r="8" fill="#14b8a6" opacity="0.9"/>
+  <path fill="#0f766e" opacity="0.35" d="M28 122c0-8 5.5-12 12-12s12 4 12 12H28zm24 0c0-10 7-14 12-14s12 4 12 14H52zm24 0c0-8 5.5-12 12-12s12 4 12 12H76z"/>
+</svg>

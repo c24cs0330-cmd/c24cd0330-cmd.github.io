@@ -1,0 +1,49 @@
+========================================
+  DIMENSIONES DE IMÁGENES — SmartPyme
+========================================
+
+Reemplaza estos archivos en la carpeta img/
+con tus propias fotos (mismo nombre).
+
+----------------------------------------
+SERVICIOS (tarjetas)
+----------------------------------------
+  01.jpg  →  Implementación de ERP
+  02.jpg  →  Optimización de procesos
+  03.jpg
+
+  Dimensión recomendada:  800 × 500 px
+  Proporción:             16:10
+  Formato:                JPG o PNG
+  Peso ideal:             < 200 KB c/u
+  object-fit:             cover (se recorta al centro)
+
+----------------------------------------
+HERO (imagen principal derecha)
+----------------------------------------
+  hero.jpg
+
+  Dimensión recomendada:  900 × 720 px
+  Proporción:             5:4
+  Formato:                JPG
+  Peso ideal:             < 300 KB
+  object-fit:             cover
+
+----------------------------------------
+ICONOS SVG (ya listos, no hace falta foto)
+----------------------------------------
+  icon-cercania.svg   →  valor Cercanía
+  icon-claridad.svg   →  valor Claridad
+  icon-resultados.svg →  valor Resultados
+  Tamaño de uso: 28×28 px dentro del círculo de 48×48
+
+----------------------------------------
+CONSEJOS
+----------------------------------------
+• Exporta a sRGB, calidad 80–85 %
+• Evita texto dentro de la foto (el sitio ya pone títulos)
+• Motivos sugeridos del brief original:
+  - 01: equipo PyME revisando inventario/ventas en PC
+  - 02: consultor y dueño mapeando proceso en pizarrón
+  - 03: emprendedora con laptop y celular atendiendo clientes
+  - hero: equipo en reunión de negocios
